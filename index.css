@@ -7,7 +7,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hsla(0, 0%, 16%, 0.8);
+    background-color: hsla(0, 0%, 16%);
     color:white;
     font-family: 'Jost', sans-serif;
     text-transform: uppercase;
@@ -70,7 +70,7 @@ body {
     margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 65px;
 }
 
 .tagline {
@@ -109,7 +109,8 @@ body {
 .highlight {
     border: 2px solid hsl(0, 0%, 16%);
     width: 33%;
-    
+    background-color:hsl(0, 0%, 16%);
+    color:hsl(0, 0%, 100%);
 }
 
 .highlight-pic {
@@ -128,7 +129,6 @@ body {
 .highlight-txt {
     margin-left: 30px;
     margin-top: 30px;
-    
 }
 
 .highlight-txt h2 {
@@ -145,15 +145,27 @@ body {
 /*Testimonial Style*/
 
 .testimonial {
+    text-align: center;
+}
+
+.testimonial h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.test-pic {
     display:flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
 }
 
 .test-pic img {
     height:100%;
-    width: 400px;
+    width: 375px;
     max-width: 100%;
     max-height: 100%;
     box-sizing: border-box;    
+}
+
+em {
+    font-style: italic;
 }
