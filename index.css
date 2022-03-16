@@ -4,10 +4,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hsl(0, 0%, 16%);
+    background-color: hsla(0, 0%, 16%, 0.8);
     color:white;
     font-family: 'Jost', sans-serif;
     text-transform: uppercase;
+}
+
+.logo {
+    margin-left: 10px;
 }
 
 .logo img {
@@ -33,7 +37,7 @@ header {
 }
 
 .register {
-    background-color: hsl(36, 82%, 41%);
+    background-color: hsla(36, 82%, 41%, 0.7);
     padding: 10px;
     margin-right: 10px;
     border: 1px solid hsl(0, 0%, 16%);
@@ -47,5 +51,18 @@ header {
 }
 
 .register:hover {
-    background-color: hsl(36, 82%, 31%);
+    background-color: hsla(36, 82%, 31%, 0.7);
+}
+
+.pitch-highlight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid-images ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 12px;
 }
