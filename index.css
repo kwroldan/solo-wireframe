@@ -176,7 +176,17 @@ em {
 footer {
     background-color: hsl(0, 0%, 16%);
     color:hsl(0, 0%, 100%);
+    padding-bottom: 20px;
 }
+
+/* Footer Image Style */
+
+.footer-pic {
+    padding-top: 10px;
+}
+
+
+/* Footer Navigation Style */
 
 footer h4 {
     font-weight: bold;
@@ -261,4 +271,46 @@ footer h4 {
 .foot-buttons li:hover {
     background-color: hsl(36, 82%, 31%);
     border: 5px solid hsl(36, 82%, 31%);
+}
+
+hr {
+    width: 90%;
+}
+
+/* Copyright and Socials Styling */
+
+.copy-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.copyright {
+    margin-left: 7%;
+    color: hsl(0, 0%, 70%);
+}
+
+.fa {
+    padding: 10px;
+    margin-right: 10px;
+    width: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: hsl(36, 82%, 41%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.socials {
+    margin-right: 7%;
+}
+
+.socials ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
