@@ -57,6 +57,35 @@ header {
     background-color: hsla(36, 82%, 31%, 0.7);
 }
 
+@media (max-width: 600px) {
+    header {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-links ul{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .register {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
 /* Pitch and Highlight Design */
 
 body {
@@ -140,6 +169,54 @@ body {
 
 .highlight-txt p {
     margin-bottom: 30px;
+}
+
+@media (max-width: 1050px) {
+    .pitch-highlight {
+        display:block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1050px) {
+    .highlight {
+        width: 100vw;
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    .highlight-pic {
+        display: block;
+        margin:auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    .highlight img {
+        width: auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    .highlight-txt {
+        margin: auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    .highlight-txt h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1050px) {
+    .grid-images img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /*Testimonial Style*/
@@ -302,6 +379,11 @@ hr {
     background-color: hsl(36, 82%, 41%);
     color: hsl(0, 0%, 100%);
     border-radius: 50%;
+    transition: background-color 0.7s;
+}
+
+.fa:hover {
+    background-color: hsl(36, 82%, 31%);
 }
 
 .socials {
@@ -313,4 +395,44 @@ hr {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+}
+
+@media (max-width: 1050px) {
+    .foot-nav {
+        display:block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1050px) {
+    .foot-parent-link {
+        display:block;
+        text-align: center;
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .foot-links3 ul {
+        margin: auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    .copy-socials {
+        display: block;
+    }
+}
+
+@media (max-width: 1050px) {
+    .copyright {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .socials {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
