@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 /* Nav Bar Style */
 
@@ -58,13 +59,21 @@ header {
 
 /* Pitch and Highlight Design */
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .pitch-highlight {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:flex-start;
     margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.tagline {
+    margin-bottom: 12px;
 }
 
 .tagline h1 {
@@ -77,14 +86,59 @@ header {
     font-size: 20px;
 }
 
+.grid-images {
+    background-color:aquamarine;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .grid-images ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 12px;
+
 }
 
 .grid-images img {
     width: 200px;
     height: 200px;
 }
+
+.highlight {
+    border: 2px solid hsl(0, 0%, 16%);
+    width: 33%;
+    
+}
+
+.highlight-pic {
+    display:flex;
+    justify-content: center;
+}
+
+.highlight-pic img {
+    height:100%;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box; 
+}
+
+.highlight-txt {
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+
+.highlight-txt h2 {
+    font-weight: bolder;
+    font-size: 22px;
+    text-align:left;
+    margin-bottom: 30px;
+}
+
+.highlight-txt p {
+    margin-bottom: 30px;
+}
+
