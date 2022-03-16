@@ -70,6 +70,7 @@ body {
     margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 
 .tagline {
@@ -87,7 +88,6 @@ body {
 }
 
 .grid-images {
-    background-color:aquamarine;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -142,3 +142,18 @@ body {
     margin-bottom: 30px;
 }
 
+/*Testimonial Style*/
+
+.testimonial {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.test-pic img {
+    height:100%;
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;    
+}
