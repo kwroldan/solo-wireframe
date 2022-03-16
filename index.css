@@ -146,6 +146,7 @@ body {
 
 .testimonial {
     text-align: center;
+    margin-bottom: 75px;
 }
 
 .testimonial h3 {
@@ -172,25 +173,55 @@ em {
 
 /*Footer Styles*/
 
+footer {
+    background-color: hsl(0, 0%, 16%);
+    color:hsl(0, 0%, 100%);
+}
+
+footer h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
 .foot-nav {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+    padding-top: 10px;
+}
+
+.foot-nav a {
+    text-decoration: none;
+    cursor:pointer;
+    color: hsl(0, 0%, 100%);
+    transition: color 0.7s;
+}
+
+.foot-nav a:hover {
+    color:hsl(0, 0%, 70%);
 }
 
 .foot-parent-link {
     display: flex;
     justify-content:right;
     width: 50%;
+    padding-top: 20px;
 }
 
 .foot-parent-link > * {
     margin-left: 50px;
 }
 
-footer h4 {
-    font-weight: bold;
-    margin-bottom: 15px;
+.foot-links1 li {
+    padding-bottom: 6px;
+}
+
+.foot-links2 li {
+    padding-bottom: 6px;
+}
+
+.foot-links3 li {
+    padding-bottom: 6px;
 }
 
 .foot-links3 ul {
@@ -200,29 +231,34 @@ footer h4 {
 .foot-buttons a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 0%, 16%);
+    background-color: hsl(36, 82%, 41%);
     transition: background-color 0.7s;
 }
 
 .foot-buttons li{
     display: block;
     text-align:center;
-    background-color: hsl(0, 0%, 16%);
-    border: 5px solid hsl(0, 0%, 16%);
+    background-color: hsl(36, 82%, 41%);
+    border: 5px solid hsl(36, 82%, 41%);
     border-radius: 3px;
     width: 100%;
     transition: background-color 0.7s, border 0.7s;
 }
 
+.foot-buttons {
+    margin-top: 10px;
+    width: auto;
+}
+
 .foot-buttons li + li {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .foot-buttons a:hover {
-    background-color: hsl(36, 82%, 41%);
+    background-color: hsl(36, 82%, 31%);
 }
 
 .foot-buttons li:hover {
-    background-color: hsl(36, 82%, 41%);
-    border: 5px solid hsl(36, 82%, 41%);
+    background-color: hsl(36, 82%, 31%);
+    border: 5px solid hsl(36, 82%, 31%);
 }
